@@ -1,18 +1,30 @@
-# Pre-interview assignment
+# Getting Started with Toxic Frontend
+## Description
+- Simple React App Used for TMDB and frontend task of displaying Movies in a list with simpel funcionality. 
 
-## System description
-This is an online library that consists of popular TV shows. In the library, the user wants to list all the shows with their respective title as well as cover. When the user hovers over a show, they will see the rating of the show (average vote). The user should be able to find a show given a title or language, and list the shows by the latest air date.
-When the user clicks on a show, a new page with detailed information about the selected show will appear.
+## Installation
+1. `cd` project-folder > `git clone git@github.com:toxicinteractive/Working-at-Toxic-Frontend.git`
+2. `cd Working-at-Toxic-Frontend`
+3. `cp .env.sample .env`
+2. `npm install`
 
-## Instructions
-* Fork or clone this repository (click "Use this Template")
-* Make an estimate on how long you think it would take you to complete this project
-* Use any frontend framework
-* You may use the sample data provided in this repository. Or, alternatively sign up to https://www.themoviedb.org/tv and use their API.
-* Include instructions on how to run your project in this README
-* Spend approximately 4-6 hours on this project
+## Estimaiton
+- Installation & API investigation (1h)
+- Design / Implementation (2h)
+- Functionality (2h)
 
-When you're done, preferably within a week of seeing this, send us a pull request with your work in this repo! Bonus points if your commits are descriptive, and what future developments of this project would look like.
+## Start the React App in local:
+1.  `cd myproject/Working-at-Toxic-Fronten` > `npm start`
 
-Good luck! :)
+### Information
+Due to the time lime limit there was some restrictions with design and functionality. Read the section `Future Developments`.
+
+#### TODOS: 
+- Add lazyloaders and Skeleton Loaders for the loding parts (containg images and other API Data).
+- Add Docker/configuration for easier development and to ensure to always have the same setup.
+- For this purpouse i used standard Context PAI instead of redux, could add redux for easier global management.
+
+#### Future Developments
+1. Add pagination and add endpoints/query for pagination.
+2. Add endppoints for filtering, can be nice to add filtering with the supported endpoimnt query `&sortBy` instead of filtering it manually with vanillia JS.
 
